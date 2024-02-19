@@ -1,0 +1,18 @@
+runMode = "debug"
+
+[app]
+pageSize = 10
+jwtSecret = "23347$040412"
+
+[server]
+httpPort = 8000
+readTimeout = 60
+writeTimeout = 60
+
+[database]
+type = "mysql"
+user = "root"
+password = "sQstx4j!uVLLp7P"
+host = "43.139.9.189:3306"
+name = "blog"
+tablePrefix = "blog_"
